@@ -1,0 +1,95 @@
+## =========================
+## Build
+## =========================
+bin/
+obj/
+out/
+publish/
+TestResults/
+
+## =========================
+## Visual Studio
+## =========================
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## =========================
+## Rider / JetBrains
+## =========================
+.idea/
+*.sln.iml
+
+## =========================
+## Logs
+## =========================
+*.log
+logs/
+
+## =========================
+## NuGet
+## =========================
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+!packages/build/
+*.nuget.props
+*.nuget.targets
+
+## =========================
+## OS Files
+## =========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+## =========================
+## Environment / Secrets
+## =========================
+appsettings.Development.json
+appsettings.*.json
+!.gitignore
+.env
+.env.*
+
+## =========================
+## Azure / Publish
+## =========================
+*.Publish.xml
+*.azurePubxml
+*.pubxml
+*.publishsettings
+
+## =========================
+## Database / LocalDB
+## =========================
+*.mdf
+*.ldf
+
+## =========================
+## Coverage / Testing
+## =========================
+coverage/
+*.coverage
+*.coveragexml
+*.trx
+
+## =========================
+## Resharper
+## =========================
+_ReSharper*/
+*.DotSettings.user
+
+## =========================
+## VS Code
+## =========================
+.vscode/
+
+## =========================
+## DotNet CLI
+## =========================
+*.runtimeconfig.dev.json
