@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Projeto02
+﻿public class TransacaoTed : Transacao
 {
-    internal class TransacaoTed
+    public override bool Validar()
     {
+        return _valor > 5000;
     }
 }
